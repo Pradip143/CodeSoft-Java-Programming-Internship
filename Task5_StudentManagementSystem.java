@@ -120,7 +120,7 @@ public class Task5_StudentManagementSystem {
                     int rollNumber = scanner.nextInt();
                     scanner.nextLine();
                     System.out.print("Enter grade: ");
-                    String grade = scanner.nextLine();
+                    String grade = scanner.next();
                     system.addStudent(new Student(name, rollNumber, grade));
                     break;
                 case 2:
