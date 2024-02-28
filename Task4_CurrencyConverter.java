@@ -7,7 +7,7 @@ import java.net.URL;
 public class Task4_CurrencyConverter {
    
     public static double fetchExchangeRate(String baseCurrency, String targetCurrency) throws IOException {
-        String apiKey = "YOUR_API_KEY";
+        String apiKey = "b83a5da163dacbb8ff675969";
         String url = "https://v6.exchangerate-api.com/v6/b83a5da163dacbb8ff675969/latest/" + baseCurrency;
         URL url1 = new URL(url);
         HttpURLConnection connection = (HttpURLConnection) url1.openConnection();
